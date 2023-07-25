@@ -32,4 +32,14 @@ with  h5py.File(h5_file, 'r') as f:
     print(f.keys())
     #print(f.info())
     print(f['species']) # get info about datset
-    print(f['species'][()] # get actual data values)
+    print(f['species'][()]) # get actual data values)
+
+
+# attributes
+
+with h5py.File(h5_file, 'a') as f:
+    
+    f['petal_width'].attrs.create('some info', 'xxxxx')
+    f['petal_width'].attrs.create('version', 1)
+
+    print(dict(f['petal_width'].attrs))

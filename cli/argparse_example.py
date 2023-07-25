@@ -1,7 +1,7 @@
-import argparse
+from argparse import ArgumentParser
 
 # basic example
-parser = argparse.ArgumentParser(description="says what the program does")
+parser = ArgumentParser(description="says what the program does")
 parser.add_argument("argument", help="description of argument",type=str, default = "a" )
 parser.add_argument("-o", "--optional_argument",  help="description of argument",type=float, default = 0.0)
 
