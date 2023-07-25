@@ -1,0 +1,22 @@
+
+INTRO
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+* ask about scientific problem that is being worked on
+* introduce coding problem that needs to be solved
+* ask if attempts had been made already and what hurdles arose
+
+CODING START 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+* ask which coding environment is usually used (python scripts, jupyter notebooks, etc.) and use that
+* ask for github repo of data/scripts etc. 
+* make fork of github repo
+* make dev branch on my fork of repo
+* make plan together about how we will solve the problem
+
+CODING
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+* start with comment block describing what code does
+* put plan at start of code so it can be followed
+* after each step of plan, COMMIT to github!!!!!
+* remember to put test/temp files in .gitignore file :) 
+* 
